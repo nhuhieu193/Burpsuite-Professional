@@ -16,6 +16,13 @@
 <br>
 
 #  $${\color{magenta}Linux-Installation}$$
+
+## Note
+
+First, you have to ensure you are running with Java 21 or you may encounter the issue of **"The license is not recognized"**
+
+![alt text](image.png)
+
 ```sh
 sudo apt update && sudo apt install -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
 ```
